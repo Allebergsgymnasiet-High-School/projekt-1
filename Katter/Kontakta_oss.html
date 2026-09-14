@@ -21,19 +21,31 @@
         <a href="../Siberisk katt/index.html">Siberisk katt</a>
     </nav>
     <main>
+        <fieldset> 
+            <legend>Dina uppgifter</legend>
+    
         <form>
+            <p>
             <label for="name">Namn:</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" autocomplete="name" required>
+            </p>
 
+            <p>
             <label for="email">E-Post:</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" autocomplete="email" required>
+            </p>
 
+            
             <label for="subject">Ämne:</label>
             <input type="text" name="subject" id="subject" />
+            
 
+        
             <label for="description">Beskriv ditt ärende:</label>
             <textarea name="description" id="description"></textarea>
+            
         </form>
+        </fieldset>
     </main>
     
 </body>

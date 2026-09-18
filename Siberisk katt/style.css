@@ -78,9 +78,8 @@ table {
     align-items: center;
 }
 
-header a {
+figure {
     text-align: center;
-    color: var(--textColor);
 }
 
 

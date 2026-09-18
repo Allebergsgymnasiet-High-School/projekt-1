@@ -50,8 +50,12 @@ h1,h2,h3 {
 .subhead {
     font-family: "DM Sans"; sans-serif;
     font-size: 1,5rem;
-    color:rgb(45, 36, 36);
+    color:rgb(74, 59, 59);
 
+}
+
+main a {
+    color: rgb(145, 88, 98);
 }
 
 .max {

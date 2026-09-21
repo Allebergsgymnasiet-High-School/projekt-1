@@ -45,6 +45,11 @@ nav a:active {
 
 h1,h2,h3 {
     text-align: center;
+
+}
+
+b {
+    color: gold;
 }
 
 .subhead {

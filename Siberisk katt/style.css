@@ -73,6 +73,10 @@ ol,ul,li {
     padding: 0,9rem;
 }
 
+b {
+    color: rgb(123, 134, 114);
+}
+
 table {
     text-align: center;
     align-items: center;

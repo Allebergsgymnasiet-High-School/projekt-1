@@ -66,6 +66,11 @@ p {
     text-align: center;
     text-decoration:none
 }
+
+b {
+    text-align: center;
+    color: #534B52;
+}
    
 ol,ul,li {
     text-align:left;

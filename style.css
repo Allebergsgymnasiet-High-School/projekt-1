@@ -6,15 +6,16 @@
     box-sizing: border-box;
 
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(240, 236, 233);
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background-image: url(bilder/kattbakgrund.avif) ;
 background-repeat: no-repeat;
-background-position: center center;
+background-position:center bottom -70px;
 background-size: 100%; 
+background-attachment: fixed;
 }
 
 
@@ -25,11 +26,15 @@ section{
     border: 1px solid black;
  border-radius: 20px;
  padding: 1rem;
+padding-bottom: 1rem;
+ margin-right: 1rem;
+ margin-left: 1rem;
  
 }
 
 section .sek2 {
-    padding: 2rem;
+    
+
 }
 
 h1,h2,h3,p {

@@ -66,6 +66,10 @@ p {
     text-align: center;
     text-decoration:none
 }
+
+b {
+color: rgb(80, 192, 233);
+}
    
 ol,ul,li {
     text-align:left;

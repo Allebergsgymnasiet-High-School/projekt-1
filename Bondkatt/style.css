@@ -47,6 +47,11 @@ h1,h2,h3 {
     text-align: center;
 }
 
+b {
+    text-align: center;
+    color: rgb(170, 136, 74);
+}
+
 .subhead {
     font-family: "DM Sans"; sans-serif;
     font-size: 1,5rem;

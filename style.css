@@ -13,11 +13,33 @@ justify-content: center;
 align-items: center;
 background-image: url(bilder/kattbakgrund.avif) ;
 background-repeat: no-repeat;
-background-position:center bottom -70px;
+background-position:center bottom -80px;
 background-size: 100%; 
 background-attachment: fixed;
 }
 
+nav {
+    border-bottom: 0.05rem solid black;
+    align-content: flex-start;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color:black;
+    text-decoration:none;
+    padding: 5px;
+    box-shadow: 0 0 5px black;
+    align-items:flex-start
+}
+
+nav a:hover{
+    box-shadow: 0 3px 3px black;
+}
+
+nav a:active {
+    box-shadow: 0 1px 2px black;
+}
 
 
 section{
@@ -67,7 +89,8 @@ main {
     text-align: center;
     color:rgb(74, 59, 59);
     padding-bottom: 3rem;
-
+    padding-top: -2rem;
+height: 23dvh;
 }
     
 

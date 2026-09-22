@@ -102,6 +102,11 @@ header a {
     color: var(--textColor);
 }
 
+video {
+    align-self:right;
+    order: 1;
+}
+
 
 
 .max {

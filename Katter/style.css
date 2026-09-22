@@ -76,11 +76,25 @@ ol,ul,li {
     text-align:left;
     text-decoration:none;
     padding: 0,9rem;
+    margin-left: 0,5rem;
+}
+
+.höta {
+    padding: 1rem;
 }
 
 table {
     text-align: center;
     align-items: center;
+    justify-content: center;
+    height: 25dvh;
+    width: 35dvw;
+    align-content: center;
+    order: 2;
+}
+
+th,td {
+  border: solid 1px black;  
 }
 
 header a {

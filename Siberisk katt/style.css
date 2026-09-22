@@ -73,6 +73,15 @@ ol,ul,li {
     padding: 0,9rem;
 }
 
+.höta {
+    padding: 2rem;
+}
+
+caption {
+    text-align: center;
+    justify-content: center;
+}
+
 b {
     color: rgb(123, 134, 114);
 }

@@ -64,7 +64,8 @@ main a :visited {
 
 p {
     text-align: center;
-    text-decoration:none
+    text-decoration:none;
+    align-content: center;
 }
 
 b {
@@ -73,10 +74,16 @@ b {
 }
    
 ol,ul,li {
-    text-align:left;
-    text-decoration:none;
-    padding: 0,9rem;
-    margin-left: 0,5rem;
+   
+   list-style-position:inside;
+    
+}
+
+li {
+    text-align: center;
+}
+.l {
+    text-align: center;
 }
 
 .höta {
@@ -105,6 +112,18 @@ header a {
 video {
     align-self:right;
     order: 1;
+    align-items: end;
+    justify-content: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.vid {
+    justify-content: right;
+    align-items:stretch;
+    align-self: center;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 

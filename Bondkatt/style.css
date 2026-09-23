@@ -70,6 +70,7 @@ main a :visited {
 p {
     text-align: center;
     text-decoration:none
+    align-content: center
 }
    
 ol,ul,li {

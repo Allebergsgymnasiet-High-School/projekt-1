@@ -95,7 +95,12 @@ figure {
     text-align: center;
 }
 
+.subhead {
+    font-family: "DM Sans"; sans-serif;
+    font-size: 1,5rem;
+    color:rgb(74, 59, 59);
 
+}
 
 .max {
 max-width: 60dvw;

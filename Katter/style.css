@@ -73,18 +73,8 @@ b {
     color: #534B52;
 }
    
-ol,ul,li {
-   
-   list-style-position:inside;
-    
-}
 
-li {
-    text-align: center;
-}
-.l {
-    text-align: center;
-}
+
 
 .höta {
     padding: 1rem;
@@ -97,33 +87,22 @@ table {
     height: 25dvh;
     width: 35dvw;
     align-content: center;
-    order: 2;
+    
 }
 
 th,td {
   border: solid 1px black;  
 }
 
-header a {
-    text-align: center;
-    color: var(--textColor);
-}
+
 
 video {
-    align-self:right;
-    order: 1;
-    align-items: end;
-    justify-content: left;
+   
+   
+    
+    
     display: block;
     margin: 0 auto;
-}
-
-.vid {
-    justify-content: right;
-    align-items:stretch;
-    align-self: center;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 

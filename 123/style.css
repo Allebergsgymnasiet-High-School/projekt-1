@@ -1,0 +1,17 @@
+
+body {
+    width: 60dvw;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.row img {
+    width: 100%;
+}
+
+.row section {
+    flex: 1;
+}

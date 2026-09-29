@@ -94,6 +94,17 @@ figure {
     text-align: center;
 }
 
+.row {
+    display: flex;
+}
+
+.row img {
+    width: 100%;
+}
+
+.row figure {
+    flex: 1;
+}
 
 
 .max {

@@ -26,13 +26,15 @@ header {
 }
 nav {
     border-bottom: 0.05rem solid black;
+    
 }
 
 nav a {
-    color:black;
+     color: rgb(124, 47, 60);
     text-decoration:none;
     padding: 10px;
     box-shadow: 0 0 5px black;
+    
 }
 
 nav a:hover{
@@ -78,6 +80,11 @@ b {
 
 .höta {
     padding: 1rem;
+    
+}
+
+#sif{
+    background-color:rgb(249, 241, 235)
 }
 
 table {
@@ -88,10 +95,16 @@ table {
     width: 35dvw;
     align-content: center;
     
+    
 }
 
 th,td {
   border: solid 1px black;  
+  background-color: rgb(232, 184, 193);
+}
+
+#ti {
+    font-family: "DM Sans"; sans-sesrif;
 }
 
 

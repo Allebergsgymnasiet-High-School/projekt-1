@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 :root {
-    --bgColor:#7E4E60
-    --textColor:#C0F8D1
-    --accentColor:
+
+    --textColor:rgb(74, 59, 59);
+    --accent:rgb(124, 47, 60);
 }
 
 body {
@@ -30,7 +30,7 @@ nav {
 }
 
 nav a {
-     color: rgb(124, 47, 60);
+     color: var(--accent);
     text-decoration:none;
     padding: 10px;
     box-shadow: 0 0 5px black;
@@ -40,11 +40,12 @@ nav a {
 }
 
 nav a:hover{
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 0.15rem 0.25rem black;
 }
 
 nav a:active {
-    box-shadow: 0 1px 3px black;
+    box-shadow: 0 0.05rem 0.15rem black;
+    
 }
 
 h1,h2,h3 {
@@ -52,24 +53,25 @@ h1,h2,h3 {
 }
 
 .subhead {
-    font-family: "DM Sans"; sans-serif;
-    font-size: 1,5rem;
-    color:rgb(74, 59, 59);
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    color: var(--textColor);
 
 }
 
 main a {
-    color: rgb(145, 88, 98);
+    color: var(--accent);
 }
 
 main a :visited {
-    color: rgb(124, 47, 60);
+    color:black
 }
 
 p {
     text-align: center;
     text-decoration:none;
     align-content: center;
+    line-height: 2rem;
 }
 
 b {
@@ -86,7 +88,7 @@ b {
 }
 
 #sif{
-    background-color:rgb(249, 241, 235)
+    background-color:#f3ebd1;
 }
 
 table {
@@ -101,12 +103,13 @@ table {
 }
 
 th,td {
-  border: solid 1px black;  
-  background-color: rgb(232, 184, 193);
+  border: solid 0.1rem black;  
+  background-color:#edbfb3;
+  
 }
 
 #ti {
-    font-family: "DM Sans"; sans-sesrif;
+    font-family: "DM Sans", sans-serif;
 }
 
 

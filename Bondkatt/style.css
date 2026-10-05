@@ -31,22 +31,22 @@ nav {
 nav a {
     color: rgb(124, 47, 60);
     text-decoration:none;
-    padding: 10px;
-    box-shadow: 0 0 5px black;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.25rem black;
 }
 .subhead {
-    font-family: "DM Sans"; sans-serif;
-    font-size: 1,5rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
     color:rgb(74, 59, 59);
 
 }
 
 nav a:hover{
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 0.15rem 0.25rem black;
 }
 
 nav a:active {
-    box-shadow: 0 1px 3px black;
+    box-shadow: 0 0.05rem 0.15rem black;
 }
 
 h1,h2,h3 {
@@ -59,8 +59,8 @@ b {
 }
 
 .subhead {
-    font-family: "DM Sans"; sans-serif;
-    font-size: 1,5rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
     color:rgb(74, 59, 59);
 
 }
@@ -75,14 +75,14 @@ main a :visited {
 
 p {
     text-align: center;
-    text-decoration:none
-    align-content: center
+    text-decoration:none;
+    align-content :center;
 }
    
 ol,ul,li {
     text-align:left;
     text-decoration:none;
-    padding: 0,9rem;
+    padding: 0.9rem;
 }
 
 table {

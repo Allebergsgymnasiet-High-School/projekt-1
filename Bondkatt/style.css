@@ -13,6 +13,7 @@
 body {
     background-color:blanchedalmond;
     display:flex;
+
     flex-direction:column;
     justify-content:center;
     align-items:center;
@@ -25,7 +26,11 @@ header {
   font-style: normal;
 }
 nav {
-    border-bottom: 0.05rem solid black;
+
+    margin-top:-1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
 }
 
 nav a {
@@ -96,6 +101,7 @@ figure {
 
 .row {
     display: flex;
+
 }
 
 .row img {
@@ -104,6 +110,15 @@ figure {
 
 .row figure {
     flex: 1;
+}
+
+div {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+
 }
 
 

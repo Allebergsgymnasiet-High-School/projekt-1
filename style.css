@@ -7,22 +7,25 @@
 }
 body {
     background-color: rgb(240, 236, 233);
-display: flex;
+    display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background-image: url(bilder/kattbakgrund.avif) ;
 background-repeat: no-repeat;
-background-position:center bottom -4.9rem;
+background-position:center bottom -5.4rem;
 background-size: 100%; 
 background-attachment: fixed;
 }
 
 nav {
-    border-bottom: 0.05rem solid black;
+
     align-content: flex-start;
     margin-top: -1rem;
     margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
 }
 
 nav a {
@@ -52,6 +55,10 @@ section{
  padding-right: 0.5rem;
  margin-right: 1rem;
  margin-left: 1rem;
+ flex-wrap:wrap;
+ justify-content:center;
+ align-items:center;
+ 
  
 }
 
@@ -94,6 +101,7 @@ main {
 height: 23dvh;
 
 width: 23dvw;
+flex-wrap:nowrap;
 
 }
     
@@ -116,5 +124,11 @@ nav a {
     text-align: center;
     padding-right: 2rem;
     color:rgb(74, 59, 59);
+    flex-wrap:wrap;
+    padding-bottom:1rem;
+    justify-content:center;
+    align-items:center;
+    
 
 }
+

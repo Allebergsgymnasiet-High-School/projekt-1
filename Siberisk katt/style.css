@@ -25,7 +25,11 @@ header {
   font-style: normal;
 }
 nav {
-    border-bottom: 0.05rem solid black;
+
+    margin-top:-1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
 }
 
 nav a {

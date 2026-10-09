@@ -74,7 +74,8 @@ p {
     text-align: center;
     text-decoration:none;
     align-content: center;
-    line-height: 2rem;
+    line-height: 1.6;
+    
 }
 
 b {
@@ -111,7 +112,7 @@ th,td {
 
 #ti {
     font-family: "DM Sans", sans-serif;
-    line-height:0.3rem
+    line-height:0.5;
 }
 
 

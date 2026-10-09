@@ -88,6 +88,7 @@ ol,ul,li {
     text-align:left;
     text-decoration:none;
     padding: 0.9rem;
+    max-width:34rem
 }
 
 table {

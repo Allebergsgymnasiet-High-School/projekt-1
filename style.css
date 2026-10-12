@@ -19,8 +19,8 @@ justify-content: center;
 align-items: center;
 background-image: url(bilder/kattbakgrund.avif) ;
 background-repeat: no-repeat;
-background-position:center bottom -5rem;
-background-size: 100%; 
+background-position: center bottom;
+background-size: contain;
 background-attachment: fixed;
 }
 
@@ -97,6 +97,7 @@ main {
     display: flex;
     flex-direction: row;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .sek1 {
@@ -136,7 +137,9 @@ nav a {
     justify-content:center;
     align-items:center;
     padding: 10px 5px;
-    
+    min-width: 200px;
+    max-width: 20dvw;
+    min-height: 25dvh;
 
 }
 

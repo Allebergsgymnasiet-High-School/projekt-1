@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 :root {
-    --bgColor:#7E4E60
-    --textColor:#C0F8D1
-    --accentColor:
+    
+    --textColor:rgb(74, 59, 59);
+    --navcolor:rgb(124, 47, 60);
+    --accentColor:rgb(145, 88, 98);
+    --scolor:gold;
 }
 
 body {
@@ -33,7 +35,7 @@ nav {
 }
 
 nav a {
-    color: rgb(124, 47, 60);
+    color: var(--navcolor);
     text-decoration:none;
     padding: 0.5rem;
     box-shadow: 0 0 0.25rem black;
@@ -54,27 +56,27 @@ h1,h2,h3 {
 .subhead {
     font-family: "DM Sans", sans-serif;
     font-size: 1,5rem;
-    color:rgb(74, 59, 59);
+    color: var(--textColor);
 
 }
 
 b {
-    color: gold;
+    color: var(--scolor);
 }
 
 .subhead {
     font-family: "DM Sans", sans-serif;
     font-size: 1,5rem;
-    color:rgb(74, 59, 59);
+    color: var(--textColor);
 
 }
 
 main a {
-    color: rgb(145, 88, 98);
+    color: var(--accentColor);
 }
 
 main a :visited {
-    color: rgb(124, 47, 60);
+    color: var(--navcolor);
 }
 
 p {

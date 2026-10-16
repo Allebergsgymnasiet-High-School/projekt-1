@@ -9,10 +9,14 @@
 :root {
     --bgColor:rgb(240, 236, 233);
     --bgsection:rgba(222, 218, 218, 0.3);
+    --hcolor:rgb(211, 53, 79);
+    --acolor:rgb(145, 88, 98);
+    --navcolor:rgb(124, 47, 60);
+    --textcolor:rgb(74, 59, 59);
 }
 
 body {
-    background-color: rgb(240, 236, 233);
+    background-color: var(--bgColor);
     display:flex;
 flex-direction: column;
 justify-content: center;
@@ -64,7 +68,7 @@ section{
  flex-wrap:wrap;
  justify-content:center;
  align-items:center;
- background-color: rgba(222, 218, 218, 0.3);
+ background-color: var(--bgsection);
  
 }
 
@@ -86,11 +90,11 @@ h1 {
 }
 main a {
     text-align: center;
-    color:rgb(145, 88, 98);
+    color:var(--acolor);
 }
 
 main a:hover {
-    color:rgb(211, 53, 79);
+    color:var(--hcolor);
 }
 
 main {
@@ -102,36 +106,34 @@ main {
 
 .sek1 {
     text-align: center;
-    color:rgb(74, 59, 59);
+    color:var(--textcolor);
 min-width: 200px;
     padding-bottom: 3rem;
     padding-top: -2rem;
-height: 23dvh;
-
-width: 23dvw;
-flex-wrap:nowrap;
-
+    height: 23dvh;
+    width: 23dvw;
+    flex-wrap:nowrap;
 }
     
 
 section a{
 
     text-align: center;
-    color: rgb(145, 88, 98);
+    color: var(--acolor);
 }
 
 section a:hover {
-    color:rgb(211, 53, 79);
+    color:var(--hcolor);
 }
 
 nav a {
-    color: rgb(124, 47, 60);
+    color:var(--navcolor);
 }
 
 .sek2 {
     text-align: center;
     
-    color:rgb(74, 59, 59);
+    color:var(--textcolor);
     flex-wrap:wrap;
     flex-direction:row;
     justify-content:center;

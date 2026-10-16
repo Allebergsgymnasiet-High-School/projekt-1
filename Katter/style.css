@@ -9,6 +9,7 @@
     --textColor:rgb(74, 59, 59);
     --accent:rgb(124, 47, 60);
     --textactive:rgb(211, 53, 79);
+    --scolor:#534B52;
 }
 
 body {
@@ -80,7 +81,7 @@ p {
 
 b {
     text-align: center;
-    color: #534B52;
+    color: var(--scolor);
 }
 
 

@@ -119,7 +119,7 @@ div {
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    max-width: 60dvw;
+    max-width: 70dvw;
     min-width:300px
 
 }
@@ -128,7 +128,13 @@ div figure {
     min-width: 200px;
 }
 
+img {
+    max-width: 20dvw;
+    min-width:250px
+
+}
+
 
 .max {
-max-width: 60dvw;
+max-width: 70dvw;
 }

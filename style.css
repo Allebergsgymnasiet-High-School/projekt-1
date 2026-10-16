@@ -103,7 +103,7 @@ main {
 .sek1 {
     text-align: center;
     color:rgb(74, 59, 59);
-
+min-width: 200px;
     padding-bottom: 3rem;
     padding-top: -2rem;
 height: 23dvh;

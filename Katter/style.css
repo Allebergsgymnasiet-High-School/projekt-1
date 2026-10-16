@@ -84,6 +84,9 @@ b {
     color: var(--scolor);
 }
 
+.active {
+    color:var(--textactive);
+}
 
 .höta {
     padding: 1rem;

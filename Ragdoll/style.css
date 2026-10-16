@@ -99,6 +99,10 @@ figure {
 
 }
 
+.active {
+    color:rgb(211, 53,79);
+}
+
 .max {
 max-width: 60dvw;
 }

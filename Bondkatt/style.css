@@ -136,6 +136,10 @@ img {
 
 }
 
+.active {
+    color:rgb(211, 53,79);
+}
+
 
 .max {
 max-width: 70dvw;

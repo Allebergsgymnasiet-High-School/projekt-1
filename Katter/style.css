@@ -10,10 +10,11 @@
     --accent:rgb(124, 47, 60);
     --textactive:rgb(211, 53, 79);
     --scolor:#534B52;
+    --bgcolor:blanchedalmond;
 }
 
 body {
-    background-color:blanchedalmond;
+    background-color:var(--bgcolor);
     display:flex;
     flex-direction:column;
     justify-content:center;

@@ -10,10 +10,12 @@
     --textColor: rgb(74, 59, 59);
 --scolor: rgb(123, 134, 114);
     --navcolor:rgb(124, 47, 60);
+    --hcolor:rgb(211,53,79);
+    --bgcolor:blanchedalmond;
 }
 
 body {
-    background-color:blanchedalmond;
+    background-color:var(--bgcolor);
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -60,9 +62,7 @@ h1,h2,h3 {
 
 }
 
-main a {
-    color: rgb(145, 88, 98);
-}
+
 
 main a :visited {
     color:var(--navcolor);
@@ -83,6 +83,9 @@ ol,ul,li {
     padding: 2rem;
 }
 
+.active {
+    color: var(--hcolor);
+}
 caption {
     text-align: center;
     justify-content: center;

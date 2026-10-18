@@ -10,10 +10,12 @@
     --accentColor: rgb(145, 88, 98);
     --navcolor: rgb(124, 47, 60);
     --scolor:rgb(80, 192, 233);
+    --hcolor:rgb(211, 53,79);
+    --bgcolor:blanchedalmond;
 }
 
 body {
-    background-color:blanchedalmond;
+    background-color:var(--bgcolor);
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -100,7 +102,7 @@ figure {
 }
 
 .active {
-    color:rgb(211, 53,79);
+    color: var(--hcolor);
 }
 
 .max {

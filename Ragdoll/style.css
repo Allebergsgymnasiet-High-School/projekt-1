@@ -73,6 +73,7 @@ main a :visited {
 p {
     text-align: center;
     text-decoration:none;
+    line-height:1,5;
 }
 
 b {

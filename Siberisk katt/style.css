@@ -12,7 +12,13 @@
     --navcolor:rgb(124, 47, 60);
     --hcolor:rgb(211,53,79);
     --bgcolor:blanchedalmond;
+    --lheight:1.5;
+
 }
+nav a:focus-visible {
+    background-color:rgb(252, 241, 224);
+}
+
 
 body {
     background-color:var(--bgcolor);
@@ -71,7 +77,7 @@ main a :visited {
 p {
     text-align: center;
     text-decoration:none;
-    line-height:1,5;
+    line-height: var(--lheight);
 }
    
 ol,ul,li {

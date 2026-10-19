@@ -13,6 +13,7 @@
     --acolor:rgb(145, 88, 98);
     --navcolor:rgb(124, 47, 60);
     --textcolor:rgb(74, 59, 59);
+    --lheight:1.5;
 }
 
 body {
@@ -44,6 +45,13 @@ nav a {
     padding: 10px;
     box-shadow: 0 0 0.25rem black;
     align-items:flex-start;
+}
+nav a:focus-visible {
+    background-color:rgb(252, 241, 224);
+}
+
+main a:focus-visible {
+    color:var(--hcolor);
 }
 
 nav a:hover{
@@ -89,7 +97,7 @@ h2,h3 {
 }
 
 p {
-    line-height:1,5;
+    line-height: var(--lheight);
 }
 
 
@@ -121,6 +129,11 @@ min-width: 200px;
     height: 23dvh;
     width: 23dvw;
     flex-wrap:nowrap;
+    
+}
+
+.sek1 :focus-visible {
+    color:var(--hcolor);
 }
     
 

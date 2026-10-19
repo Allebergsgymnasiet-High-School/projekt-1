@@ -12,6 +12,7 @@
     --scolor:rgb(80, 192, 233);
     --hcolor:rgb(211, 53,79);
     --bgcolor:blanchedalmond;
+    --lheight:1.5;
 }
 
 body {
@@ -73,7 +74,10 @@ main a :visited {
 p {
     text-align: center;
     text-decoration:none;
-    line-height:1,5;
+    line-height:var(--lheight);
+}
+nav a:focus-visible {
+    background-color:rgb(252, 241, 224);
 }
 
 b {

@@ -12,6 +12,7 @@
     --scolor:rgb(170, 136, 74);
     --hcolor:rgb(211,53,79);
     --bgcolor:blanchedalmond;
+    --lheight:1.5;
 }
 
 body {
@@ -50,8 +51,13 @@ nav a {
 
 }
 
+
 nav a:hover{
     box-shadow: 0 0.15rem 0.25rem black;
+}
+
+nav a:focus-visible {
+    background-color:rgb(252, 241, 224);
 }
 
 nav a:active {
@@ -86,7 +92,7 @@ p {
     text-align: center;
     text-decoration:none;
     align-content :center;
-    line-height:1,5;
+    line-height: var(--lheight);
 }
    
 ol,ul,li {

@@ -11,6 +11,7 @@
     --textactive:rgb(211, 53, 79);
     --scolor:#534B52;
     --bgcolor:blanchedalmond;
+    --lheight:1.5;
 }
 
 body {
@@ -76,9 +77,16 @@ p {
     text-align: center;
     text-decoration:none;
     align-content: center;
-    line-height: 1.5;
+    line-height: var(--lheight);
     
 }
+nav a:focus-visible {
+    background-color:rgb(252, 241, 224);
+}
+main a:focus-visible {
+    color:var(--textactive);
+}
+
 
 b {
     text-align: center;

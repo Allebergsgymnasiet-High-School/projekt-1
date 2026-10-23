@@ -12,6 +12,29 @@
     --scolor:#534B52;
     --bgcolor:blanchedalmond;
     --lheight:1.5;
+    --pcolor:black;
+    --shadowcolor:black;
+ --bordercolor:black;
+
+
+     --gap:10px;
+    --bsna: 0 0 0.25rem;
+    --bsnah: 0 0.15rem 0.15rem;
+    --bsnaa: 0 0.05rem 0.15rem;
+
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bgcolor:black;
+        --textColor:yellow;
+        --accent:orange;
+        --textactive:red;
+        --scolor:purple;
+        --pcolor:white;
+        --shadowcolor:white;
+        --bordercolor:white;
+    }
 }
 
 body {
@@ -32,24 +55,24 @@ nav {
 margin-top:-1rem;
     display: flex;
     flex-wrap: wrap;
-    gap:10px;
+    gap:var(--gap);
 }
 
 nav a {
      color: var(--accent);
     text-decoration:none;
     padding: 0.5rem;
-    box-shadow: 0 0 0.25rem black;  
-     border-bottom: 0.05rem solid black;
+    box-shadow:var(--bsna) var(--shadowcolor);  
+     border-bottom:1px var(--bordercolor);
     
 }
 
 nav a:hover{
-    box-shadow: 0 0.15rem 0.25rem black;
+    box-shadow: 0 0.15rem 0.25rem var(--shadowcolor);
 }
 
 nav a:active {
-    box-shadow: 0 0.05rem 0.15rem black;  
+    box-shadow: 0 0.05rem 0.15rem var(--shadowcolor);  
     
 }
 
@@ -78,6 +101,7 @@ p {
     text-decoration:none;
     align-content: center;
     line-height: var(--lheight);
+    color:var(--pcolor);
     
 }
 nav a:focus-visible {
@@ -106,7 +130,9 @@ main a:focus-visible {
     text-align:center;
 }
 
-
+header {
+    color:var(--pcolor);
+}
 
 
     

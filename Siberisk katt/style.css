@@ -13,10 +13,15 @@
     --hcolor:rgb(211,53,79);
     --bgcolor:blanchedalmond;
     --lheight:1.5;
+    --fvbgcolor:rgb(252, 241,224);
+
+     --bsna: 0 0 0.25rem;
+    --bsnah: 0 0.15rem 0.15rem;
+    --bsnaa: 0 0.05rem 0.15rem;
 
 }
 nav a:focus-visible {
-    background-color:rgb(252, 241, 224);
+    background-color:var(--fvbgcolor);
 }
 
 
@@ -46,15 +51,15 @@ nav a {
     color: var(--navcolor);
     text-decoration:none;
     padding: 0.5rem;
-    box-shadow: 0 0 0.25rem black;
+    box-shadow:var(--bsna) black;
 }
 
 nav a:hover{
-    box-shadow: 0 0.15rem 0.25rem black;
+    box-shadow:var(--bsnah) black;
 }
 
 nav a:active {
-    box-shadow: 0 0.05rem 0.15rem black;
+    box-shadow:var(--bsnaa) black;
 }
 
 h1,h2,h3 {

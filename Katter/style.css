@@ -85,6 +85,7 @@ nav a:focus-visible {
 }
 main a:focus-visible {
     color:var(--textactive);
+    background-color: rgb(252, 241,224);
 }
 
 .note {

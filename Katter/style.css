@@ -10,7 +10,12 @@
     --accent:rgb(124, 47, 60);
     --textactive:rgb(211, 53, 79);
     --scolor:#534B52;
+    --tbgcolor:#edbfb3;
+    --sifbgcolor:#f3ebd1;
     --bgcolor:blanchedalmond;
+    --notebgcolor:rgb(237, 219, 122);
+    --notebordercolor:rgb(220, 202, 106);
+    --fvbgcolor:rgb(252, 241,224);
     --lheight:1.5;
     --pcolor:black;
     --shadowcolor:black;
@@ -34,6 +39,12 @@
         --pcolor:white;
         --shadowcolor:white;
         --bordercolor:white;
+        --tbgcolor:rgb(229, 187, 107);
+    --sifbgcolor:rgb(222, 200, 158);
+    
+    --notebgcolor:rgb(237, 219, 122);
+    --notebordercolor:rgb(220, 202, 106);
+    --fvbgcolor:rgb(252, 241,224);
     }
 }
 
@@ -105,11 +116,11 @@ p {
     
 }
 nav a:focus-visible {
-    background-color:rgb(252, 241, 224);
+    background-color:var(--fvbgcolor);
 }
 main a:focus-visible {
     color:var(--textactive);
-    background-color: rgb(252, 241,224);
+    background-color: var(--fvbgcolor);
 }
 
 .note {
@@ -119,11 +130,11 @@ main a:focus-visible {
     padding:5px;
     
 
-    background-color:rgb(237, 219, 122);
+    background-color:var(--notebgcolor);
     height:20dvh;
     width:10dvw;
-    border:3px solid rgb(220, 202, 106);
-    border-bottom: 12px solid rgb(220,202,106);
+    border:3px solid var(--notebordercolor);
+    border-bottom: 12px solid var(--notebordercolor);
     
     
     
@@ -152,7 +163,7 @@ b {
 }
 
 #sif{
-    background-color:#f3ebd1;
+    background-color:var(--sifbgcolor);
 }
 
 table {
@@ -167,8 +178,8 @@ table {
 }
 
 th,td {
-  border: solid 0.1rem black;  
-  background-color:#edbfb3;
+  border: solid 0.1rem #000000;  
+  background-color:var(--tbgcolor);
   
 }
 

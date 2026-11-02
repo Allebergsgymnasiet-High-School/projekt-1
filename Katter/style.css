@@ -16,16 +16,22 @@
     --notebgcolor:rgb(237, 219, 122);
     --notebordercolor:rgb(220, 202, 106);
     --fvbgcolor:rgb(252, 241,224);
-    --lheight:1.5;
+   
     --pcolor:black;
     --shadowcolor:black;
  --bordercolor:black;
 
+ --lheight:1.5;
+    --lheightt:0.5;
+    --fontsizesub:1.5rem;
+
 
      --gap:10px;
     --bsna: 0 0 0.25rem;
-    --bsnah: 0 0.15rem 0.15rem;
+    --bsnah: 0 0.15rem 0.25rem;
     --bsnaa: 0 0.05rem 0.15rem;
+    --navmt:-1rem;
+    --navp:0.5rem;
 
 }
 
@@ -62,8 +68,9 @@ header {
   font-weight: 400;
   font-style: normal;
 }
+
 nav {
-margin-top:-1rem;
+margin-top:var(--navmt);
     display: flex;
     flex-wrap: wrap;
     gap:var(--gap);
@@ -72,18 +79,18 @@ margin-top:-1rem;
 nav a {
      color: var(--accent);
     text-decoration:none;
-    padding: 0.5rem;
+    padding: var(--navp);
     box-shadow:var(--bsna) var(--shadowcolor);  
      border-bottom:1px var(--bordercolor);
     
 }
 
 nav a:hover{
-    box-shadow: 0 0.15rem 0.25rem var(--shadowcolor);
+    box-shadow: var(--bsnah) var(--shadowcolor);
 }
 
 nav a:active {
-    box-shadow: 0 0.05rem 0.15rem var(--shadowcolor);  
+    box-shadow: var(--bsnaa) var(--shadowcolor);  
     
 }
 
@@ -93,7 +100,7 @@ h1,h2,h3 {
 
 .subhead {
     font-family: "DM Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: var(--fontsizesub);
     color: var(--textColor);
 
 }
@@ -178,23 +185,20 @@ table {
 }
 
 th,td {
-  border: solid 0.1rem #000000;  
+  border: solid 0.1rem black;  
   background-color:var(--tbgcolor);
   
 }
 
 #ti {
     font-family: "DM Sans", sans-serif;
-    line-height:0.5;
+    line-height:var(--lheightt);
 }
 
 
 
 video {
    
-   
-    
-    
     display: block;
     margin: 0 auto;
 }

@@ -42,9 +42,9 @@
         --tbgcolor:rgb(229, 187, 107);
     --sifbgcolor:rgb(222, 200, 158);
     
-    --notebgcolor:rgb(237, 219, 122);
-    --notebordercolor:rgb(220, 202, 106);
-    --fvbgcolor:rgb(252, 241,224);
+    --notebgcolor:rgb(238, 96, 184);
+    --notebordercolor:rgb(235, 55, 166);
+    --fvbgcolor:rgb(129, 127, 124);
     }
 }
 
@@ -197,6 +197,10 @@ video {
     
     display: block;
     margin: 0 auto;
+}
+
+li {
+    color:var(--pcolor);
 }
 
 

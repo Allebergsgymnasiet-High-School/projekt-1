@@ -132,8 +132,8 @@ main a:focus-visible {
 
 .note {
     position: fixed;
-    top: 10px;
-    right:10px;
+    top: 1rem;
+    right:1rem;
     padding:5px;
     
 

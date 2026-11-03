@@ -208,5 +208,8 @@ li {
     color:var(--pcolor);
 }
 
+label {
+    color:var(--pcolor);
+}
 
 

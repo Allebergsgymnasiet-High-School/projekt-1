@@ -24,6 +24,7 @@
  --lheight:1.5;
     --lheightt:0.5;
     --fontsizesub:1.5rem;
+    --bordersize:0.1rem;
 
 
      --gap:10px;
@@ -81,7 +82,7 @@ nav a {
     text-decoration:none;
     padding: var(--navp);
     box-shadow:var(--bsna) var(--shadowcolor);  
-     border-bottom:0.1rem var(--bordercolor);
+     border-bottom:var(--bordersize) var(--bordercolor);
     
 }
 
@@ -185,7 +186,7 @@ table {
 }
 
 th,td {
-  border: solid 0.1rem black;  
+  border: var(--bordersize) solid var(--bordercolor);  
   background-color:var(--tbgcolor);
   
 }
@@ -209,6 +210,3 @@ li {
 
 
 
-.max {
-max-width: 60dvw;
-}

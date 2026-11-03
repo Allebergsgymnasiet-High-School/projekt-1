@@ -46,7 +46,7 @@ nav {
 
     align-content: flex-start;
     margin-top: -1rem;
-    margin-bottom: 1rem;
+    margin-bottom:1rem;
     display: flex;
     flex-wrap: wrap;
     gap:var(--gap);
@@ -55,7 +55,7 @@ nav {
 nav a {
     color:black;
     text-decoration:none;
-    padding: 10px;
+    padding: 0.5rem;
     box-shadow:var(--bsna) var(--shadowcolor);
     align-items:flex-start;
 }

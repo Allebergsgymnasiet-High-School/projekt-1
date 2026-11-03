@@ -81,7 +81,7 @@ nav a {
     text-decoration:none;
     padding: var(--navp);
     box-shadow:var(--bsna) var(--shadowcolor);  
-     border-bottom:1px var(--bordercolor);
+     border-bottom:0.1rem var(--bordercolor);
     
 }
 
@@ -134,7 +134,7 @@ main a:focus-visible {
     position: fixed;
     top: 1rem;
     right:1rem;
-    padding:5px;
+    padding:0.5rem;
     
 
     background-color:var(--notebgcolor);

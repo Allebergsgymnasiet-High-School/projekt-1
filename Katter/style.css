@@ -134,7 +134,7 @@ main a:focus-visible {
     position: fixed;
     top: 1rem;
     right:1rem;
-    padding:0.5rem;
+    padding:5px;
     
 
     background-color:var(--notebgcolor);
